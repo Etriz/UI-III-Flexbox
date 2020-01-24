@@ -209,6 +209,26 @@ header button:hover {
   background: #666;
   color: white;
 }
+.contact-form {
+  display: flex;
+  width: 75%;
+}
+.contact-form textarea {
+  margin-top: 0.5rem;
+}
+.contact-form input {
+  width: 50%;
+  margin: 0.5rem 1rem 0.5rem 0;
+}
+.contact-form label {
+  font-weight: bold;
+}
+.contact-header-img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  margin: 2rem 0;
+}
 .section-services {
   margin: 2rem 0;
 }
